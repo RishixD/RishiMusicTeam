@@ -22,7 +22,7 @@ from DaisyXMusic.config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
 from DaisyXMusic.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
-file = open("./etc/foreground.png", "wb")
+file = open("./etc/20210518_200229.png", "wb")
 file.write(response.content)
 file.close()
 
