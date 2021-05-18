@@ -42,7 +42,7 @@ async def start(_, message: Message):
                 ],
                 [   
                     InlineKeyboardButton(
-                        "⚡ 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 ⚡", url=" https://t.me/Definitely_not"
+                        "⚡ 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 ⚡", url="https://t.me/Definitely_not"
                     )
                 ],
             ]
