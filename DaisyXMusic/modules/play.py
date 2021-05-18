@@ -180,7 +180,7 @@ def r_ply(type_):
         [
             [
                 InlineKeyboardButton("⏹", "leave"),
-                InlineKeyboardButton("⏸", "puse"),
+                InlineKeyboardButton("⏸", "pause"),
                 InlineKeyboardButton("▶️", "resume"),
                 InlineKeyboardButton("⏭", "skip"),
             ],
@@ -337,7 +337,7 @@ async def m_cb(b, cb):
         else:
             callsmusic.pytgcalls.pause_stream(chet_id)
 
-            await cb.answer("Music Paused!")
+            await cb.answer("⏸ Music Paused! ⏸")
     elif type_ == "cls":
         await cb.answer("Closed menu")
         await cb.message.delete()
@@ -349,7 +349,7 @@ async def m_cb(b, cb):
             [
                 [
                     InlineKeyboardButton("⏹", "leave"),
-                    InlineKeyboardButton("⏸", "puse"),
+                    InlineKeyboardButton("⏸", "pause"),
                     InlineKeyboardButton("▶️", "resume"),
                     InlineKeyboardButton("⏭", "skip"),
                 ],
@@ -582,7 +582,7 @@ async def deezer(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "RishiMusic"
     usar = user
     wew = usar.id
     try:
@@ -705,7 +705,7 @@ async def jiosaavn(client: Client, message_: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "RishiMusic"
     usar = user
     wew = usar.id
     try:
