@@ -22,22 +22,27 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        f"""Hello 👋 there! I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!\n\n🔴 Do you want me to play music in your Telegram groups'voice chats? Please click the \'📜 User Manual 📜\' button below to know how you can use me.\n\n🔴 The Assistant must be in your group to play music in the voice chat of your group.\n\n🔴 More info & commands mentioned in the [User Manual](https://telegra.ph/Daisy-X-04-19)\n\nA project by @TeamDaisyX""",
+        f"""Hello 👋 there! I can play music in voice chats of Telegeam Groups. I have a lot of cool feature that will amaze you!\n\n🔴 Do you want me to play music in your Telegram groups'voice chats? Please click the \'📜 User Manual 📜\' button below to know how you can use me.\n\n🔴 The Assistant must be in your group to play music in the voice chat of your group.\n\n🔴 More info & commands mentioned in the [User Manual](http://telegra.ph/NOTES-BY-RISHI-05-18)\n\nA project by @RISHI_OP""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "📜 User Manual 📜", url="https://telegra.ph/Daisy-X-04-19"
+                        "📜 𝚄𝚂𝙴𝚁 𝙼𝙰𝙽𝚄𝙰𝙻 📜", url="http://telegra.ph/NOTES-BY-RISHI-05-18"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "👨‍💻 Updates 👨‍💻", url="https://t.me/daisyxupdates"
+                        "⚡ 𝙾𝚆𝙽𝙴𝚁 ⚡", url="https://t.me/RISHI_OP"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Support Chat 🎙️", url="https://t.me/DaisySupport_Official"
+                        "⚡ 𝙲𝙷𝙰𝚃 𝙶𝚁𝙾𝚄𝙿 ⚡", url="https://t.me/NiceJokeLol"
+                    )
+                ],
+                [   
+                    InlineKeyboardButton(
+                        "⚡ 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 ⚡", url=" https://t.me/Definitely_not"
                     )
                 ],
             ]
@@ -49,12 +54,12 @@ async def start(_, message: Message):
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        """**🔴 Music player is online**""",
+        """**🔴 𝐑𝐈𝐒𝐇𝐈'𝐒 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓 is online 😈**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🎙️ Support Group 🎙️", url="https://t.me/daisysupport_Official"
+                        "⚡ 𝚆𝙴𝙸𝚁𝙳𝙾 ⚡", url="https://t.me/Definitely_not"
                     )
                 ]
             ]
